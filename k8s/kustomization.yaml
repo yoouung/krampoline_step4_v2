@@ -11,3 +11,7 @@ configMapGenerator:
   - name: init-db
     files:
       - configs/init.sql
+secretGenerator:
+  - name: my-secret-file
+    files:
+      - configs/secret.json
